@@ -1,5 +1,4 @@
 import { User } from "./schema";
-import { Request, Response } from "express";
 
 export class UserService {
   static async getUsers() {
